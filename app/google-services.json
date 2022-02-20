@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "655968869449",
+    "project_id": "rgit-app",
+    "storage_bucket": "rgit-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655968869449:android:b28b16e4f72bf2dab17398",
+        "android_client_info": {
+          "package_name": "com.example.admincollegeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655968869449-lb8qoi57nr6ic683105r9t6a0h4fpn90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLMz51HFcVQTsNhbKDO30OgoYlZ95P9m0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655968869449-lb8qoi57nr6ic683105r9t6a0h4fpn90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
