@@ -8,8 +8,13 @@
         <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/drawable/circle_purple.xml" value="0.2" />
         <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/drawable/circle_red.xml" value="0.2" />
         <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/drawable/circle_yellow.xml" value="0.2" />
+        <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/drawable/ic_add.xml" value="0.1485" />
         <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.22760416666666666" />
+        <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/drawable/ic_delete.xml" value="0.164" />
+        <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/drawable/ic_faculty.xml" value="0.164" />
         <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/drawable/ic_gallery.xml" value="0.22760416666666666" />
+        <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/drawable/ic_group.xml" value="0.164" />
+        <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/drawable/ic_image.xml" value="0.164" />
         <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22760416666666666" />
         <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/drawable/ic_notice.xml" value="0.22760416666666666" />
         <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/layout/activity_add_teachers.xml" value="0.23645833333333333" />
@@ -18,6 +23,8 @@
         <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/layout/activity_upload_image.xml" value="0.16927083333333334" />
         <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/layout/activity_upload_notice.xml" value="0.2" />
         <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/layout/activity_upload_pdf.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/layout/faculty_item_layout.xml" value="0.23645833333333333" />
+        <entry key="..\:/AndroidApp/AdminCollegeApp/app/src/main/res/layout/no_data_found.xml" value="0.23645833333333333" />
       </map>
     </option>
   </component>
