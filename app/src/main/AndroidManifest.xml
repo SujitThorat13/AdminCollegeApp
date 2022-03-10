@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AdminCollegeApp">
         <activity
+            android:name=".faculty.UpdateTeacherActivity"
+            android:exported="false" />
+        <activity
             android:name=".faculty.AddTeachers"
             android:exported="false" />
         <activity
@@ -33,7 +36,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".faculty.UpdateFaculty"/>
+        <activity android:name=".faculty.UpdateFaculty" />
     </application>
 
 </manifest>

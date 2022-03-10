@@ -72,7 +72,7 @@ public class AddTeachers extends AppCompatActivity {
         storageReference = FirebaseStorage.getInstance().getReference();
 
 
-        String[] items = new String[]{"Select Category", "Computer Engineering", "Information Technology","Mechanical Engineering"};
+        String[] items = new String[]{"Select Category", "Computer Engineering", "Information Technology","Mechanical Engineering","Electrical Engineering"};
         addTeacherCategory.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item,items));
 
         addTeacherCategory.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -129,6 +129,7 @@ public class AddTeachers extends AppCompatActivity {
         }
         
     }
+
     private void uploadImage() {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.JPEG, 50,baos);

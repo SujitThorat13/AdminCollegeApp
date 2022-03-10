@@ -1,6 +1,7 @@
 package com.example.admincollegeapp.faculty;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,12 +23,13 @@ public class TeacherAdapter extends RecyclerView.Adapter<TeacherAdapter.TeacherV
 
     private List<TeacherData> list;
     private Context context;
+    private String category;
 
-
-    public TeacherAdapter(List<TeacherData> list, Context context) {
+    public TeacherAdapter(List<TeacherData> list, Context context, String category) {
 
         this.list = list;
         this.context = context;
+        this.category = category;
     }
 
 
@@ -47,12 +49,25 @@ public class TeacherAdapter extends RecyclerView.Adapter<TeacherAdapter.TeacherV
         holder.name.setText(item.getName());
         holder.email.setText(item.getEmail());
         holder.post.setText(item.getPost());
-        Picasso.get().load(item.getImage()).into(holder.imageView);
+
+        try {
+            Picasso.get().load(item.getImage()).into(holder.imageView);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         holder.update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(context, "Update Teacher", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(context, UpdateTeacherActivity.class);
+
+                intent.putExtra("name",item.getName());
+                intent.putExtra("email",item.getEmail());
+                intent.putExtra("post",item.getPost());
+                intent.putExtra("image",item.getImage());
+                intent.putExtra("key", item.getKey());
+                intent.putExtra("category", category);
+                context.startActivity(intent);
             }
         });
 
@@ -76,7 +91,6 @@ public class TeacherAdapter extends RecyclerView.Adapter<TeacherAdapter.TeacherV
             post = itemView.findViewById(R.id.teacherPost);
             imageView = itemView.findViewById(R.id.teacherImage);
             update = itemView.findViewById(R.id.teacherUpdate);
-
 
         }
     }
