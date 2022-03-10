@@ -148,7 +148,7 @@ public class UpdateTeacherActivity extends AppCompatActivity {
             updateTeacherEmail.requestFocus();
         }else if(bitmap == null)
         {
-            updateData("");
+            updateData(image);
         }else{
             uploadImage();
         }
